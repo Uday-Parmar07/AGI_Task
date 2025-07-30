@@ -1,0 +1,76 @@
+# Python
+.venv/
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Node.js / React (Frontend)
+frontend/client/node_modules/
+frontend/client/build/
+frontend/client/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Uploads and temp files
+uploads/
+temp/
+data/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env*
+!.env.template
+!.env.example
+
+# API Keys and sensitive files
+*.json
+!package.json
+!package-lock.json
+!frontend/client/package.json
+!frontend/client/package-lock.json

@@ -1,0 +1,58 @@
+# Flask Backend Dependencies
+flask==3.0.0
+flask-cors==4.0.0
+werkzeug==3.0.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+PyJWT==2.8.0
+flask-sqlalchemy==3.1.1
+bcrypt==4.1.2
+
+# AI and Machine Learning
+langchain==0.1.0
+langchain-google-genai==0.0.5
+google-generativeai==0.3.2
+
+# PDF Processing
+PyPDF2==3.0.1
+pypdf==3.17.4
+PyMuPDF==1.23.7
+pdfminer.six
+pdfplumber
+
+# Vector Database
+pinecone-client==2.2.4
+
+# Text Processing and Embeddings
+sentence-transformers==2.2.2
+transformers==4.36.2
+
+# Data handling
+numpy==1.24.3
+pandas==2.0.3
+requests==2.31.0
+
+# Original FastAPI dependencies (keep if needed for other parts)
+fastapi
+uvicorn[standard]
+pydantic
+passlib[bcrypt]
+aiofiles
+
+# Embedding models and vector search
+sentence-transformers
+pinecone
+
+# LLM API (choose only what you use)
+openai
+google-generativeai  # for Gemini
+groq  # if using Groq API
+google-generativeai
+langchain_google_genai
+langchain-community
+
+# RAG support
+langchain  # optional but useful for RAG chaining
+
+# CORS for frontend requests
+fastapi[all]
